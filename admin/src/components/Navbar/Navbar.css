@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+
+.logo  {
+    width: 90px; /* Adjust the width to your desired size */
+    height: 90px; /* Maintain aspect ratio or set a specific height */
+    border-radius: 50%; /* Optional: make it circular */
+}
+
+.profile {
+    width: 90px; /* Adjust the width to your desired size */
+    height: 90px; /* Maintain aspect ratio or set a specific height */
+    border-radius: 50%; /* Optional: make it circular */
+}
+
+.navbar.logo{
+    width: max(10%,80px);
+
+}
+
+.navbar .profile{
+    width: 50px;
+}

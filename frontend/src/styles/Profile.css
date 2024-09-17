@@ -1,0 +1,52 @@
+.profile-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bag-icon {
+    width: 50px; /* Adjust icon size */
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .icon-container span {
+    font-size: 16px;
+    color: #333; /* Adjust color as needed */
+    font-weight: bold; /* Make the text bold */
+    margin-top: 2px; /* Adjust vertical alignment */
+  }
+  
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .actions {
+    margin-top: 20px;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .logout-button:hover { 
+    background-color: #e60000;
+  }

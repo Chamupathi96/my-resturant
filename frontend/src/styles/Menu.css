@@ -1,0 +1,100 @@
+.menu-page {
+  padding: 20px;
+}
+
+.menu-categories {
+  display: flex;
+  gap: 15px;
+  overflow-x: auto;
+  margin-bottom: 25px;
+}
+
+.category-button {
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.category-button:hover {
+  background-color: #E64A19;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menu-section {
+  margin-bottom: 50px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background: #ffffff;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.menu-item:hover {
+  transform: scale(1.05);
+}
+
+.menu-item-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 2px solid #FF5722;
+}
+
+.menu-item-details {
+  padding: 20px;
+}
+
+.menu-item-details h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.menu-item-details p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.menu-item-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FF5722;
+  margin: 15px 0;
+}
+
+.order-button {
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.order-button:hover {
+  background-color: #E64A19;
+}
